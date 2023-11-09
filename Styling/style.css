@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    color: black;
+}
+.navbar{
+    /* background-color: rgb(192, 73, 73); */
+    backdrop-filter: blur(6px);
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 15px;
+    background-color: rgba(192,212,245,255);
+    padding-bottom: 10px;
+}
+.full{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+.left{
+    position: relative;
+    left:25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.item{
+    margin: 0px 10px;
+}
+.left a{
+    color: black;
+}
+.item a{
+    color: black;
+}
+.items a{
+    color: black;
+}
+.items{
+    margin: 0px 25px;
+    padding: 0px 0px 20px;
+}
+.rights{
+    margin-top: 10px;
+}
+.btn1{
+    cursor: pointer;
+    font-size: 21px;
+    color: black;
+}
+.top{
+    background-color: rgba(192,212,245,255);
+    display: flex;
+    justify-content: space-around;
+}
+.above{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+}
+.above-bold{
+font-weight: bold;
+font-size:28px;
+
+}
+.above-btn{
+    align-self: start;
+    padding: 12px 15px;
+    background-color: #654fd6;
+    border-color: transparent;
+    color: white;
+}
+.top-img{
+    width: 350px;
+
+}
+@media screen and (max-width:650px) {
+    .item{
+        display: none;
+    }
+    .small{
+        display: none;
+    }
+}
+@media screen and (min-width:650px) {
+    .btn1{
+        display: none;
+    }
+    .items{
+        display: none;
+    }
+}
+@media screen and (max-width:947px) {
+    .top-img{
+        width: 300px;
+    }
+    .above{
+        width: 400px;
+    }
+    
+}
+@media screen and (max-width:720px) {
+    .top-img{
+        width: 250px;
+    }
+    .above{
+        width: 350px;
+    }
+    
+}
+@media screen and (max-width:650px) {
+   .top{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .above-btn{
+    align-self: center;
+   }
+   .above{
+    width: 70vw;
+   }
+    
+}
+
