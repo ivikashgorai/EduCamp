@@ -10,10 +10,10 @@ a-=1;
     document.querySelector('.small').style.display ='none';
     a=1;
   }
-  else{
-    window.addEventListener('click',()=>{
-      document.querySelector('.small').style.display ='none';
-    a=1;
-    })
-  }
 })
+  window.addEventListener('click',(e)=>{
+if(a==0 && !e.target.classList.contains('open')){
+  document.querySelector('.small').style.display ='none';
+  a=1;
+}
+  })
