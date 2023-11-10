@@ -220,6 +220,7 @@ font-size:28px;
     flex-direction: column;
     margin: 10px 10px;
     justify-content: center;
+    padding: 10px 0px;
     align-items: start;
     width: 40vw;
     background-color: #684ee9;
@@ -244,7 +245,7 @@ font-size:28px;
     padding: 10px 10px 10px 10px;
 }
 .answer{
-    margin: 5px 10px 20px 30px; 
+    margin: 5px 10px 0px 30px; 
      height:0px;
     font-family:'Times New Roman', Times, serif;
     overflow: hidden;
@@ -358,8 +359,8 @@ font-size:28px;
     width: 230px;
   }
  }
- @media screen and (max-width:1000px) {
+ @media screen and (max-width:450px) {
    .answer.high{
-    height: 100px;
+    height: 80px;
    }
 }
