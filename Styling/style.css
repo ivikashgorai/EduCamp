@@ -213,6 +213,7 @@ font-size:28px;
     .cat{
         align-items: center;
         left: 0;
+       text-align: center;
        }
    .category{
     display: flex;
@@ -236,6 +237,6 @@ font-size:28px;
     right: 50px;
   }
   .explore-item{
-    width: 240px;
+    width: 200px;
   }
  }
