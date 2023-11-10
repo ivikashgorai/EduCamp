@@ -360,6 +360,6 @@ font-size:28px;
  }
  @media screen and (max-width:1000px) {
    .answer.high{
-    height: 90px;
+    height: 100px;
    }
 }
