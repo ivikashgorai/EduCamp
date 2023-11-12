@@ -89,6 +89,7 @@ body {
 .above-bold {
   font-weight: bold;
   font-size: 28px;
+  margin: 0px 0px 10px 0px;
 }
 .above-btn {
   align-self: start;
@@ -96,6 +97,7 @@ body {
   background-color: #654fd6;
   border-color: transparent;
   color: white;
+  margin: 10px 0px 0px 0px;
 }
 .top-img {
   width: 500px;
@@ -150,12 +152,14 @@ body {
 }
 .cat-bold {
   font-size: 28px;
+  margin-top: 0px 0px 10px 0px;
 }
 .cat-btn {
   padding: 12px 30px;
   background-color: #8876e5;
   border-color: transparent;
   color: white;
+  margin: 10px 0px 0px 0px;
 }
 .explore-item:hover {
   transform: translateY(-8px);
