@@ -150,9 +150,11 @@ body {
   color: black;
   margin-left: 5px;
 }
+.cat-description{
+    margin-top: 10px;
+}
 .cat-bold {
   font-size: 28px;
-  margin-top: 0px 0px 10px 0px;
 }
 .cat-btn {
   padding: 12px 30px;
