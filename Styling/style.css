@@ -6,9 +6,10 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style-type: none;
+    color: white;
 }
 body{
-    background-color: rgb(192,212,245);
+    background:repeating-linear-gradient(to right, rgb(9, 3, 56),rgb(0, 0, 0) 0.4%);
     transition: 1s;
 }
 .navbar{
@@ -16,8 +17,9 @@ body{
     backdrop-filter: blur(6px);
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 15px;
-    background-color: rgb(192,212,245);
-    padding-bottom: 10px;
+    background-color:#654fd6;
+    padding: 5px 0px 1px 0px;
+    margin-bottom: 30px;
 }
 .full{
     top:1px;
@@ -41,13 +43,13 @@ body{
     margin: 0px 10px;
 }
 .left a{
-    color: black;
+    color: white;
 }
 .item a{
-    color: black;
+    color: white;
 }
 .items a{
-    color: black;
+    color: white;
 }
 .items{
     margin: 0px 25px;
@@ -59,10 +61,10 @@ body{
 .btn1{
     cursor: pointer;
     font-size: 21px;
-    color: black;
+    color: white;
 }
 .top{
-    background-color: rgb(192,212,245);
+    background:repeating-linear-gradient(to right, rgb(9, 3, 56),rgb(0, 0, 0) 0.4%);
     display: flex;
     justify-content: space-around;
 }
@@ -157,7 +159,7 @@ font-size:28px;
     text-align:center;
 }
 .best-head{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -194,7 +196,7 @@ font-size:28px;
     padding: 15px 15px;
    color: white;
     border-color:transparent ;
-    background-color:#ee5f68;
+    background-color:#8876e5;
 }
 .faq{
     margin-top: 70px;
@@ -279,6 +281,37 @@ font-size:28px;
     background-color:#654fd6;
     padding: 2rem;
   margin-top: 3rem;
+}
+footer{
+    background-color:#7959d2;
+    padding: 70px 0px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.educamp{
+    width: 150px;
+}
+.educamp h3 , .links h3 , .privacy h3, .contact h3{
+    margin-bottom: 20px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links a, .privacy a{
+    color: white;
+    margin-bottom: 10px;
+}
+.privacy{
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    margin-top: 20px;
+}
+.social a {
+    margin-left: 10px;
 }
 @media screen and (max-width:650px) {
     .item{
@@ -382,6 +415,14 @@ font-size:28px;
   }
   .explore-item{
     width: 230px;
+  }
+  footer{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .educamp, .links, .privacy , .contact{
+    margin-bottom: 40px;
   }
  }
  @media screen and (max-width:450px) {
