@@ -13,11 +13,14 @@ body{
     transition: 1s;
 }
 .navbar{
+    z-index: 3;
+    position: sticky;
+    top:0px;
     /* background-color: rgb(192, 73, 73); */
     backdrop-filter: blur(6px);
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 15px;
-    background-color:#654fd6;
+    /* background-color:#654fd6; */
     padding: 5px 0px 1px 0px;
     margin-bottom: 30px;
 }
